@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+:root{
+    --fonte-letreiro: 'Alkatra'
+}
+
+body{
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./image/campo-futebol.svg) no-repeat;
+    background-position-x: center;
+    background-position-y: -10%;
+
+}
+
+@keyframes mover {
+    from { top: 50%; }
+    to { top: 49%; }
+}
+
+#my-image {
+    width: 2.5%;
+    position: absolute;
+    top: 49.5%;
+    left: 50%;
+    transform: translate(-49.5%, -50%);
+    transition: all 1s ease-out;
+    animation: mover 1s infinite alternate;
+    z-index: 1;   
+}
+
+.campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+marquee {
+    position: relative;
+    margin-top: 10.5%;
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.letreiro{
+    padding-right: 27px;
+    padding-top: 140px;
+    width: 1296px;
+    height: 100px; 
+}
+
+.ataque{
+    position: absolute;
+    padding-top: 860px;
+}
+
+
+.bola{
+    position: fixed;
+
+}
+
+
