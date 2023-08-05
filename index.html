@@ -16,9 +16,14 @@
       <img class="bola" id="my-image" src="/image/ball.png">
 
     <div class="letreiro">
-    <marquee  direction="right" behavior="scroll" scrollamount="10">
-        FIFA Women's World Cup 2023 
-    </marquee>
+        <marquee direction="right" behavior="scroll" scrollamount="10">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIFA Women's World Cup 2023
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIFA Women's World Cup 2023
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIFA Women's World Cup 2023
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIFA Women's World Cup 2023
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIFA Women's World Cup 2023
+
+        </marquee>
     </div>
 
 
@@ -27,8 +32,6 @@
     <img id="imgA" src="./image/ataque direita.png" style="display: none;">
     <img id="imgD" src="./image/ataque esquerda.png" style="display: none;">
     </div>
-
-
 
     <script>
         const image = document.getElementById('my-image');
@@ -46,10 +49,10 @@
         });
 
         document.addEventListener("keydown", function(event) {
-        if (event.key === "a" || event.key === "A") {
+        if (event.key === "D" || event.key === "d") {
         document.getElementById("imgA").style.display = "block";
         document.getElementById("imgD").style.display = "none";
-        } else if (event.key === "d" || event.key === "D") {
+        } else if (event.key === "a" || event.key === "A") {
         document.getElementById("imgA").style.display = "none";
         document.getElementById("imgD").style.display = "block";
         } else if (event.key === "S" || event.key === "s")  {
